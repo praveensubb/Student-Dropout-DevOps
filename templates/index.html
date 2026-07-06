@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Dropout Prediction</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>Student Dropout Prediction System</h1>
+
+<form action="/predict" method="POST">
+
+<label>Student Name</label>
+<input type="text" name="name" required>
+
+<label>Attendance (%)</label>
+<input type="number" name="attendance" min="0" max="100" required>
+
+<label>Marks (%)</label>
+<input type="number" name="marks" min="0" max="100" required>
+
+<button type="submit">Predict</button>
+
+</form>
+
+</div>
+
+</body>
+</html>

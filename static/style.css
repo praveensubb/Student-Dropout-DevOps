@@ -1,0 +1,42 @@
+body{
+    background:#f5f5f5;
+    font-family:Arial;
+}
+
+.container{
+    width:400px;
+    margin:50px auto;
+    background:white;
+    padding:25px;
+    border-radius:10px;
+    box-shadow:0 0 10px gray;
+}
+
+h1{
+    text-align:center;
+}
+
+label{
+    display:block;
+    margin-top:10px;
+}
+
+input{
+    width:100%;
+    padding:10px;
+    margin-top:5px;
+    margin-bottom:15px;
+}
+
+button{
+    width:100%;
+    padding:12px;
+    background:#0078D4;
+    color:white;
+    border:none;
+    font-size:16px;
+}
+
+a{
+    text-decoration:none;
+}
