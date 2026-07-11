@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: student-dropout-app
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: student-dropout-app
+  template:
+    metadata:
+      labels:
+        app: student-dropout-app
+    spec:
+      containers:
+      - name: student-dropout-app
+        image: praveenacr20260708.azurecr.io/student-dropout-app:v1
+        imagePullPolicy: Always
+        ports:
+        - containerPort: 5000

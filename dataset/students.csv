@@ -1,0 +1,11 @@
+attendance,cgpa,internal,backlogs,assignments,behavior,risk
+90,8.5,85,0,1,5,LOW
+88,7.8,76,0,1,4,LOW
+82,7.2,71,1,2,4,LOW
+74,6.1,55,1,3,3,MEDIUM
+72,5.8,48,2,3,3,MEDIUM
+68,5.2,44,2,4,2,HIGH
+65,5.0,39,3,5,2,HIGH
+60,4.8,35,4,6,1,HIGH
+95,9.1,90,0,0,5,LOW
+78,6.8,62,1,2,4,MEDIUM
